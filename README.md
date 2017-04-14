@@ -1,12 +1,22 @@
 # SymmetryDetection
-基于VS2010+Opencv2.4.8实现的图像对称性检测，可用于其它计算机视觉领域
+基于VS2010+Opencv2.4.8实现的图像对称性检测，可用于其它计算机视觉领域底层实现，或者对称特征提取。
+
+图片对称性检测，越对称核心区域越高亮，根据特征梯度对称检测得到对称性分布结果。
+### 检测效果图：
+![](https://github.com/DUTFangXiang/SymmetryDetection/blob/master/imageMSRA/0_0_280.jpg "输入图像");
+![](https://github.com/DUTFangXiang/SymmetryDetection/blob/master/imageMSRA/0_0_280_symmetry.jpg "对称检测结果");
+
+![](https://github.com/DUTFangXiang/SymmetryDetection/blob/master/imageMSRA/0_3_3514.jpg "输入图像");
+![](https://github.com/DUTFangXiang/SymmetryDetection/blob/master/imageMSRA/0_3_3514_symmetry.jpg "对称检测结果");
+
+ ----------------------
 ### 调试环境：
 Visual Studio 2010 x86  opencv 2.4.8
 
 imageMSRA 文件夹中放置输入图像以及保存输出结果
 
 -----------------------
-### 参考论文：
+### 实现参考论文：
 2010 ICPR Using Symmetry to Select Fixation Points for Segmentation
 
 -----------------------
